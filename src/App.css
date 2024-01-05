@@ -1,0 +1,123 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.head {
+  position: absolute;
+  top: 0;
+  left: calc(50vw - (490.5px / 2));
+}
+
+.table {
+  border: 1px solid black;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border-radius: 10px;
+  height: calc(5 * 76px);
+}
+
+.header-row {
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  max-width: calc(6 * 191.67px);
+  border-bottom: 1px solid black;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 75px;
+  text-align: center;
+}
+
+.submit-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.submit {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-bar {
+  position: absolute;
+  bottom: 10%;
+  left: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-btn {
+  position: absolute;
+  bottom: 5%;
+  left: 40%;
+}
+
+.right-btn {
+  position: absolute;
+  bottom: 5%;
+  right: 40%;
+}
+
+.btn {
+  height: 10%;
+  width: 1em;
+  margin-right: -2em;
+  margin-left: 1em;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
